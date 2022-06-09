@@ -9,7 +9,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-east-2'
   app: 'First_CICD'
-  env: ' Firstcicd-env'
+  env: 'Firstcicd-env'
   bucket_name: 'elasticbeanstalk-us-east-2-267944014309'
   bucket_path: 'First_CICD'
   on:
